@@ -1,7 +1,7 @@
+// eslint-disable-next-line no-unused-vars
 import satData from "./satData";
 
-const Buttons = (props) => {
-  const {displaySats, filterByType, setSat} = props;
+const Buttons = ({displaySats, filterByType, setSat}) => {
   return (
     <div>
       {displaySats.map((sat, id) => {
